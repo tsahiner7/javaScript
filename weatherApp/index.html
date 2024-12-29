@@ -1,0 +1,31 @@
+<!-- 
+    Tolga Sahiner
+    04/11/2024 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-weight: 500;">Tolga's Weather App</h1>
+        <input type="text" id="zipCodeInput" placeholder="Enter ZIP Code">
+        <button onclick="getWeather()">Get Weather</button>
+        <div style="display: inline;">
+            <div id="weatherOutputLocation">
+                
+            </div>
+            <div style="background-color: aliceblue; padding: .5em; margin: .5em 0;">
+                <div id="weatherOutputTemp"></div><img style="width: 75px;" id="iconTemp" src="" alt="">
+            </div>
+            <div style="background-color: aliceblue; padding: .5em; margin: .5em 0;">
+                <div id="weatherOutputWind"></div><img style="width: 75px;" id="iconWind" src="" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="project02.js">project02();</script>
+</body>
+</html>
